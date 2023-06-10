@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="mt-0 {{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
+
+        <!-- Hero Content-->
+        <div class="container pt-4 pt-md-6 pt-lg-8 pb-8 pb-lg-10 position-relative">
+            <div class="row gx-10 align-items-center">
+
+                <!-- Hero Text-->
+                <div class="col-12 col-lg-7 position-relative z-index-20 text-center text-lg-start" data-aos="fade-in">
+                    <h1 class="display-5 fw-bold mb-4">Video & Movie</h1>
+                    <h2 class="fs-6 text-muted fw-light lh-base">We are a leading company in the field of web
+                        development,
+                        graphic design, digital marketing, advertising, video, and film.
+                        With a talented and dedicated team,
+                        we provide comprehensive services to meet your creative and digital marketing needs.</h2>
+                    <!-- <a href="#" class="text-decoration-none text-primary fw-bolder d-flex fs-7 justify-content-center justify-content-lg-start" data-bs-toggle="modal"
+                        data-bs-target="#videoIframeModal"
+                        data-pixr-video-iframe="https://player.vimeo.com/video/307721664?autoplay=1&amp;loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+                        role="button"><i class="ri-play-circle-line align-bottom me-1"></i> How it works</a> -->
+
+                    <!-- <div class="mt-4 pt-1 d-flex flex-column flex-md-row justify-content-center justify-content-lg-start">
+                        <a href="about.html" class="btn btn-success mt-4">Find out more</a>
+    
+                    </div> -->
+                    <!-- <ul class="list-unstyled d-none d-md-flex align-items-center small text-muted mt-3 pt-1 fw-medium fs-9 justify-content-center justify-content-lg-start">
+                        <li class="me-4 d-flex align-items-center"><i
+                                class="ri-checkbox-circle-fill text-success ri-lg me-1"></i> No credit card required
+                        </li>
+                        <li class="me-4 d-flex align-items-center"><i
+                                class="ri-checkbox-circle-fill text-success ri-lg me-1"></i> Cancel anytime</li>
+                        <li class="me-4 d-flex align-items-center"><i
+                                class="ri-checkbox-circle-fill text-success ri-lg me-1"></i> 30 day free trial</li>
+                    </ul> -->
+                </div>
+                <!-- / Hero Text-->
+
+                <!-- Hero Graphic-->
+                <div class="col-12 col-lg-5 mt-10 mt-lg-0 align-self-center position-static data-aos" fade-in">
+                    <div class="d-flex h-100 rounded-4 ">
+                        <div class="py-4 d-flex align-items-center">
+                            <picture class="position-relative z-index-20">
+                                <img class="img-fluid rounded-5 " src="{{webRoot}}/assets/images/feature-2.jpeg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                        </div>
+                        <!-- <div class="card-body" style="min-height: 280px;">
+                            <code class="highlight fs-8"
+                                data-typed='{"backSpeed":2, "strings": ["$&nbsp;npm&nbsp;install&nbsp;sigma<br/><span class=\"text-success\">Sigma&nbsp;package&nbsp;installed 👍</span><br/><br/>$&nbsp;npm&nbsp;start&nbsp;design<br/><span class=\"text-success\">Start&nbsp;sharing&nbsp;your&nbsp;designs&nbsp;instantly...</span><br/><br/>$&nbsp;npm&nbsp;launch&nbsp;design<br/><span class=\"text-success\">Push&nbsp;directly&nbsp;to&nbsp;one&nbsp;of&nbsp;our&nbsp;integrated&nbsp;hosts! 🚀</span>"]}'></code>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- / Hero Graphic-->
+
+            </div>
+
+            <!-- Bottom left shapes-->
+            <div class="position-absolute top-0 end-0 start-0 bottom-0 z-index-0 d-none d-lg-block">
+
+                <div class="d-block f-w-6  position-absolute bottom-7 start-5 rotate-n45 origin-center">
+                    <span class="d-block animation-float-4">
+                        {{>svg/svg-shape-two
+                        }}
+                    </span>
+                </div>
+
+                <div class="d-block f-w-6  position-absolute bottom-35 start-n3">
+                    <span class="d-block animation-float-6">
+                        {{>svg/svg-shape-one
+                        }}
+                    </span>
+                </div>
+
+                <div class="d-block f-w-6  position-absolute bottom-20 start-n2">
+                    <span class="d-block animation-float">
+                        {{>svg/svg-shape-four
+                        }}
+                    </span>
+                </div>
+            </div>
+            <!-- / Bottom left shapes-->
+        </div>
+        <!-- /hero Content-->
+
+        <!-- /carousel-->
+
+        <div id="carouselExampleControls" class="carousel slide carousel-dark" data-ride="carousel">
+            <div class="carousel-inner container py-15 py-lg-10">
+                <div class="carousel-item active">
+                    <div class="container py-5 py-lg-8">
+                        <div class="row g-5 g-lg-10 d-flex align-items-center">
+                            <!-- Highlight One Image Section-->
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <picture class="position-relative z-index-20">
+                                    <img class="img-fluid rounded-5" src="/assets/images/feature-1.jpeg" alt="">
+                                </picture>
+                                <!-- Hightlight One SVG Shape-->
+                                <!-- /Hightlight One SVG Shape-->
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <div class="position-relative z-index-20">
+                                    <h4 class="fs-1 fw-bold mb-4 mt-3">Story Board</h4>
+                                    <p class="text-dark">Use our builder to collaborate with your team members during
+                                        all
+                                        stages of your landing page build.</p>
+                                </div>
+                            </div>
+                            <!-- /Highlight One Text Section-->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="container py-5 py-lg-8">
+                        <div class="row g-5 g-lg-10 d-flex align-items-center">
+                            <!-- Highlight One Image Section-->
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <picture class="position-relative z-index-20">
+                                    <img class="img-fluid rounded-5" src="/assets/images/feature-1.jpeg" alt="">
+                                </picture>
+                                <!-- Hightlight One SVG Shape-->
+                                <!-- /Hightlight One SVG Shape-->
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <div class="position-relative z-index-20">
+                                    <h4 class="fs-1 fw-bold mb-4 mt-3">Short Video</h4>
+                                    <p class="text-dark">Use our builder to collaborate with your team members during
+                                        all
+                                        stages of your landing page build.</p>
+                                </div>
+                            </div>
+                            <!-- /Highlight One Text Section-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container py-5 py-lg-8">
+                        <div class="row g-5 g-lg-10 d-flex align-items-center">
+                            <!-- Highlight One Image Section-->
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <picture class="position-relative z-index-20">
+                                    <img class="img-fluid rounded-5" src="/assets/images/feature-1.jpeg" alt="">
+                                </picture>
+                                <!-- Hightlight One SVG Shape-->
+                                <!-- /Hightlight One SVG Shape-->
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <div class="position-relative z-index-20">
+                                    <h4 class="fs-1 fw-bold mb-4 mt-3">Film Making
+                                    </h4>
+                                    <p class="text-dark">Use our builder to collaborate with your team members during
+                                        all
+                                        stages of your landing page build.</p>
+                                </div>
+                            </div>
+                            <!-- /Highlight One Text Section-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container py-5 py-lg-8">
+                        <div class="row g-5 g-lg-10 d-flex align-items-center">
+                            <!-- Highlight One Image Section-->
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <picture class="position-relative z-index-20">
+                                    <img class="img-fluid rounded-5" src="/assets/images/feature-1.jpeg" alt="">
+                                </picture>
+                                <!-- Hightlight One SVG Shape-->
+                                <!-- /Hightlight One SVG Shape-->
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <div class="position-relative z-index-20">
+                                    <h4 class="fs-1 fw-bold mb-4 mt-3">Video Editing
+                                    </h4>
+                                    <p class="text-dark">Use our builder to collaborate with your team members during
+                                        all
+                                        stages of your landing page build.</p>
+                                </div>
+                            </div>
+                            <!-- /Highlight One Text Section-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container py-5 py-lg-8">
+                        <div class="row g-5 g-lg-10 d-flex align-items-center">
+                            <!-- Highlight One Image Section-->
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <picture class="position-relative z-index-20">
+                                    <img class="img-fluid rounded-5" src="/assets/images/feature-1.jpeg" alt="">
+                                </picture>
+                                <!-- Hightlight One SVG Shape-->
+                                <!-- /Hightlight One SVG Shape-->
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5 offset-xl-1 position-relative" data-aos="fade-in">
+                                <div class="position-relative z-index-20">
+                                    <h4 class="fs-1 fw-bold mb-4 mt-3">Virtual Reality
+                                    </h4>
+                                    <p class="text-dark">Use our builder to collaborate with your team members during
+                                        all
+                                        stages of your landing page build.</p>
+                                </div>
+                            </div>
+                            <!-- /Highlight One Text Section-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="text-body carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- carousel-->
+
+        
+
+        </div>
+        </div>
+        <!-- /Hightlight Two-->
+
+        </div>
+        <!-- /Product Highlights-->
+
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

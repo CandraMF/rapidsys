@@ -3,8 +3,8 @@ export class Navbar {
         this.menuToggle = menuToggle;
         this.menuParent = this.menuToggle ? this.menuToggle.closest('.dropdown') : false;
         this.dropdownMenu = this.menuParent ? this.menuParent.querySelector('.dropdown-menu') : false;
-        this.showEvents = ['mouseenter'];
-        this.hideEvents = ['mouseleave', 'click'];
+        // this.showEvents = ['click'];
+        // this.hideEvents = ['mouseleave', 'click'];
         this.cssVarBreakPoint = getComputedStyle(document.documentElement).getPropertyValue('--theme-breakpoint-lg') || '992px';
         this.breakpointLG = parseInt(this.cssVarBreakPoint, 10);
 

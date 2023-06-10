@@ -2,33 +2,28 @@
     "entries": [
         {
             "img": "{{webRoot}}/assets/images/logos/logo-9.svg",
-            "name": "Figma",
-            "description": "Sync your landing page with Figma and open the design as a Figma file."
+            "name": "Web & App",
+            "description": "Providing innovative web and app solutions to meet your digital needs."
         },
         {
             "img": "{{webRoot}}/assets/images/logos/logo-10.svg",
-            "name": "Sketch",
-            "description": "Send your designs to Sketch, open the design directly or download as Sketch file."
+            "name": "Digital Marketing",
+            "description": "Driving business growth through strategic and impactful digital marketing solutions."
         },
         {
             "img": "{{webRoot}}/assets/images/logos/logo-11.svg",
-            "name": "Adobe XD",
-            "description": "Open your landing page with XD, sync the design directly or download as XD file."
+            "name": "Video & Movie",
+            "description": "Creating captivating and cinematic visual experiences through our video and movie production services."
         },
         {
             "img": "{{webRoot}}/assets/images/logos/logo-12.svg",
-            "name": "Netlify",
-            "description": "Convert your landing page design to HTML and host with Netlify with a click of a button."
+            "name": "Graphic & Design",
+            "description": "Delivering visually stunning and impactful designs through our graphic design expertise."
         },
         {
             "img": "{{webRoot}}/assets/images/logos/logo-13.svg",
-            "name": "Dropbox",
-            "description": "Backup your Sigma files directly to your Dropbox account with a single action."
-        },
-        {
-            "img": "{{webRoot}}/assets/images/logos/logo-14.svg",
-            "name": "Gitlab",
-            "description": "Automatically track commits, merges and pull requests with our activity feed."
+            "name": "Advertisement",
+            "description": "Crafting compelling and effective advertising campaigns to elevate your brand's visibility and reach."
         }
     ]
 }

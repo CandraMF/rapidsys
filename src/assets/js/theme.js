@@ -5,7 +5,6 @@ import 'bootstrap';
 // Components
 import './components/aos';
 import './components/navbar';
-import './components/plyr';
 import './components/popover';
 import './components/scroll';
 import './components/typed';
